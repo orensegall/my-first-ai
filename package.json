@@ -4,12 +4,16 @@
   "description": "",
   "main": "behavior/scripts/index.js",
   "scripts": {
-    "start": "initai-dev-server"
+    "start": "initai-dev-server",
+    "run-all": "node behavior/scripts/lib/run_all.js"
   },
   "author": "<my-name> <<my-email-address>>",
   "license": "UNLICENSED",
   "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.3.1",
     "initai-dev-server": "^0.4.3",
-    "initai-node": "~0.0.6"
+    "initai-node": "~0.0.6",
+    "openai": "^4.39.2"
   }
 }
